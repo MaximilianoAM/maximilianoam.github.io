@@ -1,0 +1,35 @@
+section#search article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+section#search button {
+    background-color: #6EBFB8;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+section#blogPost {
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section#blogPost h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section#blogPost .date {
+    text-align: center;
+    margin-bottom: 30px;
+}
+

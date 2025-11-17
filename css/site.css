@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    margin: 0;
+    background-color: #EFF0F2;
+    width: 100%;
+}
+
+.brightFont {
+    color: #6EBFB8;
+}
+
+.darkFont {
+    color: #333333;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+section {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 40px;
+}

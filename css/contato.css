@@ -1,0 +1,55 @@
+section#intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+section#intro article {
+    max-width: 600px;
+}
+
+section#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section#contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #FFFFFF;
+    padding: 30px;
+    margin-left: -30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+section#contact form label {
+    font-weight: bold;
+}
+
+section#contact form input, section#contact form textarea, section#contact form button {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+section#contact form input, section#contact form textarea {
+    border: 1px solid #CCCCCC;
+}
+
+section#contact form button {
+    background-color: #6EBFB8;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

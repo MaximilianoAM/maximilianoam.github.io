@@ -4,56 +4,130 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-        
-        <title>Flexbox</title>
-        
+
+        <title>Psicóloga Aline - Home</title>
+
         <meta name="author" content="Maximiliano Albino de Melo" />
-        <meta name="description" content="Avaliação CSS com uso do Flexbox" />
-        
-        <link href="css/estilo.css" rel="stylesheet" type="text/css" />
-        <link rel="icon" type="image/png" href="img/favicon.jpg" />
+        <meta name="description" content="Home do site da Psicóloga Aline" />
+
+        <link href="css/site.css" rel="stylesheet" type="text/css" />
+        <link href="css/header-footer.css" rel="stylesheet" type="text/css" />
+        <link href="css/home.css" rel="stylesheet" type="text/css" />
+        <link rel="icon" type="image/png" href="img/logo.png" />
+
+        <script type="text/javascript" defer src="js/import-header-footer.js"></script>
     </head>
 
     <body>
-        <header>
-            <a href="/">Logo<a>
-            <nav>
-                <ul>
-                    <li><a href="/">Sobre</a></li>
-                    <li><a href="/">Produtos</a></li>
-                    <li><a href="/">Promoções</a></li>
-                    <li><a href="/">Notícias</a></li>
-                    <li><a href="/">Suporte</a></li>
-                    <li><a href="/">Contato</a></li>
-                </ul>
-            </nav>
-        </header>
-        <h3>Section Flexbox</h3>
-        <section>
+
+        <h1 class="brightFont">Psicóloga Aline Lippert</h1>
+
+        <section id="intro">
             <article>
-                <img src="img/buggatti.jpg">
-                <p>Legenda</p>
+                <p class="darkFont">
+                    Olá! Sou Aline, psicóloga clínica com foco
+                    no bem-estar emocional e desenvolvimento pessoal.
+                    Acredito em um espaço acolhedor e seguro para
+                    explorarmos juntos os caminhos da sua jornada.
+                </p>
             </article>
             <article>
-                <img src="img/buggatti.jpg">
-                <p>Legenda</p>
+                <img src="img/perfil.png">
             </article>
             <article>
-                <img src="img/buggatti.jpg">
-                <p>Legenda</p>
+                <a class="darkFont" href="#specialty">Minha Abordagem</a>
+                
+                <a class="darkFont" href="#journey">Minha Jornada</a>
             </article>
-            <article>
-                <img src="img/buggatti.jpg">
-                <p>Legenda</p>
-            </article>
-            <article>
-                <img src="img/buggatti.jpg">
-                <p>Legenda</p>
-            </article>
-            <article>
-                <img src="img/buggatti.jpg">
-                <p>Legenda</p>
-            </article>
+        </section>
+
+        <section id="specialty">
+            <h2 class="brightFont">Minha Abordagem: Análise Transacional (AT)</h2>
+
+            <p>Para guiar nosso trabalho terapêutico, utilizo como base principal a <strong>Análise Transacional
+                    (AT)</strong>. Desenvolvida por Eric Berne, a AT é uma abordagem humanista que nos oferece um mapa
+                claro e prático para entender a nós mesmos e nossas relações.</p>
+
+            <p>A Análise Transacional parte do princípio de que todos nós possuímos três "Estados de Ego" distintos, que
+                são sistemas inteiros de pensamentos, sentimentos e comportamentos:</p>
+
+            <ul>
+                <li><strong>O Estado de Ego Pai:</strong> É a nossa parte interna que guarda os valores, crenças, regras
+                    e comportamentos que aprendemos com nossos pais e figuras de autoridade. É a sede do "certo" e
+                    "errado".</li>
+                <li><strong>O Estado de Ego Adulto:</strong> É a nossa parte lógica, racional e objetiva. É o Adulto que
+                    avalia a realidade do "aqui e agora", processa informações e toma decisões conscientes.</li>
+                <li><strong>O Estado de Ego Criança:</strong> É a sede de nossas emoções, necessidades, intuição,
+                    criatividade e memórias da infância. É onde sentimos alegria, tristeza, medo e espontaneidade.</li>
+            </ul>
+
+            <p>Muitos dos nossos desafios emocionais e conflitos nos relacionamentos surgem quando esses estados de ego
+                estão em desequilíbrio, em conflito interno, ou quando reagimos ao presente usando padrões automáticos
+                que aprendemos no passado (os "scripts de vida").</p>
+
+            <p>O objetivo do nosso trabalho com a Análise Transacional é buscar a <strong>autonomia</strong>. Isso
+                significa desenvolver a capacidade de viver com mais:</p>
+            <ul>
+                <li><strong>Consciência:</strong> Entender o que está acontecendo dentro de você e sair do "piloto
+                    automático".</li>
+                <li><strong>Espontaneidade:</strong> Ter a liberdade de sentir e expressar suas emoções de forma
+                    autêntica e adequada ao momento.</li>
+                <li><strong>Intimidade:</strong> Construir relações verdadeiras e honestas, sem os "jogos psicológicos"
+                    que muitas vezes criamos para evitar a vulnerabilidade.</li>
+            </ul>
+
+            <p>A AT nos dá ferramentas poderosas para reescrever padrões antigos, tomar novas decisões e construir uma
+                vida mais consciente e alinhada com quem você realmente é. É uma jornada de autodescoberta focada no
+                presente, com o poder de transformar o futuro.</p>
+        </section>
+        
+        <section id="journey">
+            <h2 class="brightFont">Minha Jornada: Da Vocação ao Acolhimento</h2>
+
+            <p>Meu nome é Aline Lippert e minha trajetória na psicologia não começou com um diploma, mas com uma
+                profunda
+                inquietação sobre a natureza humana. Desde jovem, sempre fui uma observadora atenta das complexidades
+                das
+                relações, das alegrias que nos movem e das dores que, tantas vezes, silenciamos.</p>
+
+            <p>Essa curiosidade inata me guiou até a universidade. A faculdade de Psicologia foi um período de imersão
+                intensa. Mais do que teorias e técnicas, aprendi que a base de qualquer processo terapêutico é a escuta.
+                Foi
+                ali que minha vocação se transformou em propósito: eu não queria apenas entender a mente humana; eu
+                queria
+                oferecer um espaço onde as pessoas pudessem ser verdadeiramente ouvidas.</p>
+
+            <p>Ao iniciar minha prática clínica, deparei-me com a realidade de que o sofrimento emocional é universal,
+                mas a
+                forma como cada um o experiencia é singular. Tive a oportunidade de trabalhar em diferentes contextos,
+                desde
+                o atendimento comunitário até a prática clínica focada, e cada história que ouvi, cada jornada que
+                acompanhei, reforçou minha crença no potencial de transformação que existe dentro de nós.</p>
+
+            <p>Percebi que muitos de nós passamos a vida tentando nos encaixar em moldes que não nos servem, carregando
+                pesos que não são nossos, e esquecendo de nutrir nossa própria essência. A ansiedade, os bloqueios e os
+                conflitos, muitas vezes, são um chamado urgente da nossa voz interior pedindo para ser ouvida.</p>
+
+            <p>Foi essa percepção que moldou minha filosofia de trabalho. Hoje, meu foco é o <strong>bem-estar
+                    emocional</strong> e o <strong>desenvolvimento pessoal</strong>. Não se trata de ter respostas
+                prontas
+                ou "consertar" o que está quebrado. Trata-se de um processo colaborativo.</p>
+
+            <p>Acredito que o consultório (seja ele físico ou virtual) deve ser um refúgio. Um lugar onde o julgamento
+                dá
+                lugar à compreensão, onde a vulnerabilidade é vista como força, e onde podemos, juntos, desatar os nós
+                que
+                impedem o fluxo da vida.</p>
+
+            <p>Minha jornada acadêmica e profissional continua em constante evolução, pois o aprendizado é parte
+                essencial
+                do meu compromisso com a ética e a excelência no cuidado. Mas o que permanece imutável é o meu objetivo
+                principal: ser uma facilitadora no seu processo de autoconhecimento, ajudando você a construir uma
+                relação
+                mais saudável consigo mesmo e com o mundo ao seu redor.</p>
+
+            <p>Estou aqui para caminhar ao seu lado, oferecendo as ferramentas e o apoio necessários para que você possa
+                explorar, com segurança e acolhimento, os caminhos da sua própria jornada.</p>
         </section>
     </body>
 
